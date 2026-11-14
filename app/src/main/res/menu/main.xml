@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add"
+        android:title="Add a link"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_sync"
+        android:icon="@drawable/ic_sync"
+        android:title="Sync playlists"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_link"
+        android:title="Link a YouTube playlist…" />
+    <item
+        android:id="@+id/action_autoplay"
+        android:checkable="true"
+        android:title="Auto-play next video" />
+    <item
+        android:id="@+id/action_bg"
+        android:checkable="true"
+        android:title="Keep playing in background" />
+    <item
+        android:id="@+id/action_new_list"
+        android:title="New list…" />
+    <item
+        android:id="@+id/action_rename"
+        android:title="Rename this list…" />
+    <item
+        android:id="@+id/action_clear"
+        android:title="Clear watched" />
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete this list…" />
+    <item
+        android:id="@+id/action_wl"
+        android:title="About Watch Later" />
+</menu>
