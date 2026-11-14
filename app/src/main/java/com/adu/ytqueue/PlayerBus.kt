@@ -28,7 +28,7 @@ object PlayerBus {
     fun setPlaying(p: Boolean) {
         if (p == playing) return
         playing = p
-        notifyAll()
+        emit()
     }
 
     fun setMeta(id: String?, title: String, subtitle: String) {
@@ -36,8 +36,8 @@ object PlayerBus {
         videoId = id
         this.title = title
         this.subtitle = subtitle
-        notifyAll()
+        emit()
     }
 
-    private fun notifyAll() = listeners.toList().forEach { it() }
+    private fun emit() = listeners.toList().forEach { it() }
 }
