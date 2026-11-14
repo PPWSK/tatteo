@@ -13,4 +13,4 @@ YouTube's Watch Later is private and can't be read by any app; see *About Watch 
 
 ## Build
 
-Every push to `main` builds a signed APK with GitHub Actions (artifact `yt-queue-apk`).
+Every push to the `yt-queue` branch builds a signed APK with GitHub Actions (artifact `yt-queue-apk`).
